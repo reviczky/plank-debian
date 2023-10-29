@@ -1,3 +1,10 @@
+plank (0.11.89-4.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Replace transitional libgdk-pixbuf2.0-dev dependency. (Closes: #1037366)
+
+ -- Bastian Germann <bage@debian.org>  Sat, 21 Oct 2023 12:07:51 +0200
+
 plank (0.11.89-4) unstable; urgency=medium
 
   [ Mike Gabriel ]
