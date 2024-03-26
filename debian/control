@@ -20,7 +20,7 @@ Build-Depends: debhelper-compat (= 13),
                libxml2-utils,
                libx11-dev,
                at-spi2-core,
-               dbus-x11,
+               dbus-daemon,
                xvfb,
 Build-Depends-Indep: valadoc,
 Vcs-Git: https://salsa.debian.org/debian-mate-team/plank.git
