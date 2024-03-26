@@ -1,3 +1,10 @@
+plank (0.11.89-6) unstable; urgency=medium
+
+  * debian/rules:
+    + Don't build doc package on arch:any builds. (Closes: ##1067773).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Tue, 26 Mar 2024 22:18:40 +0100
+
 plank (0.11.89-5) unstable; urgency=medium
 
   * debian/control:
