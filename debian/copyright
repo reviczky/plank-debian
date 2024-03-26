@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Plank
 Upstream-Contact: Rico Tzschichholz <ricotz@ubuntu.com>
-Source: https://code.launchpad.net/plank
+Source: https://gitlab.gnome.org/ricotz/plank
 
 Files: *
 Copyright: 2011-2013, Robert Dyer <psybers@gmail.com>
