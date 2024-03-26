@@ -21,7 +21,7 @@ Build-Depends: debhelper-compat (= 13),
                libx11-dev,
                at-spi2-core,
                dbus-x11,
-               xvfb
+               xvfb,
 Build-Depends-Indep: valadoc,
 Vcs-Git: https://salsa.debian.org/debian-mate-team/plank.git
 Vcs-Browser: https://salsa.debian.org/debian-mate-team/plank
