@@ -9,6 +9,7 @@ include /usr/share/dpkg/buildflags.mk
 override_dh_install:
 	find debian/tmp -name *.la -delete
 	find debian/tmp -name *.a -delete
+	rm debian/tmp/usr/share/apport/package-hooks/source_plank.py
 	dh_install
 
 override_dh_missing:
