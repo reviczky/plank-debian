@@ -1,3 +1,29 @@
+plank (0.11.89-5) unstable; urgency=medium
+
+  * debian/control:
+    + Move valadoc to B-D-I:. (Closes: #1067764).
+    + Trailing komma at end-of-B-D field.
+    + Drop from B-D: dbus-x11, add dbus-daemon instead (for dbus-run-session).
+      (Closes: #897694).
+  * debian/{rules,plank.install}:
+    + Drop Ubuntu apport file. Python2 is dead.
+  * debian/{control,copyright,watch}:
+    + Update upstream location.
+  * debian/upstream/metadata:
+    + Add file. Comply with DEP-12.
+  * debian/{rules,plank.install}:
+    + Drop Ubuntu apport file. Python2 is dead.
+  * debian/copyright:
+    + Update copyright attribution for debian/.
+  * debian/{rules,libplank-doc.install}:
+    + Provide plank docs as devhelp book.
+  * debian/plank.lintian-overrides:
+    + Syntax update.
+  * debian/control:
+    + Bump Standards-Version: to 4.6.2. No changes needed.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Tue, 26 Mar 2024 14:31:10 +0100
+
 plank (0.11.89-4.1) unstable; urgency=medium
 
   * Non-maintainer upload.
