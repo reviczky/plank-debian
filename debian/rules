@@ -8,7 +8,7 @@ include /usr/share/dpkg/buildflags.mk
 
 built_binaries := $(shell dh_listpackages)
 
-configure_options := --enable-headless-tests
+# configure_options := --enable-headless-tests
 
 ifneq ($(filter %-doc,$(built_binaries)),)
 configure_options += --enable-docs
