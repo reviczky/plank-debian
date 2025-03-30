@@ -1,4 +1,4 @@
-Source: plank-reloaded
+Source: plank
 Section: utils
 Priority: optional
 Maintainer: Rico Tzschichholz <ricotz@ubuntu.com>
@@ -32,7 +32,7 @@ Homepage: https://gitlab.gnome.org/ricotz/plank/
 Standards-Version: 4.6.2
 Rules-Requires-Root: no
 
-Package: plank-reloaded
+Package: plank
 Architecture: any
 Depends: libplank1 (= ${binary:Version}),
          ${shlibs:Depends},
