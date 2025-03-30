@@ -10,11 +10,11 @@ built_binaries := $(shell dh_listpackages)
 
 # configure_options := --enable-headless-tests
 
-ifneq ($(filter %-doc,$(built_binaries)),)
-configure_options += --enable-docs
-else
-configure_options += --disable-docs
-endif
+# ifneq ($(filter %-doc,$(built_binaries)),)
+# configure_options += --enable-docs
+# else
+# configure_options += --disable-docs
+# endif
 
 override_dh_install:
 	find debian/tmp -name *.la -delete
